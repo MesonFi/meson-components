@@ -1,0 +1,18 @@
+.meson-button {
+  display: inline-flex;
+  background-color: #4c67ff;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+.meson-card {
+  display: inline-flex;
+  background-color: #4c67ff;
+  color: #fff;
+  padding: 24px;
+  border-radius: 4px;
+}
+
+
+
+

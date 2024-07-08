@@ -2,9 +2,8 @@
   "compilerOptions": {
     "target": "es5",
     "module": "ESNext",
-    "declarationDir": "dist/@types",
     "lib": ["dom", "esnext"],
-    "declaration": true,
+    "declaration": false,
     "strict": true,
     "jsx": "react",
     "allowSyntheticDefaultImports": true,
