@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "es5",
     "module": "ESNext",
-    "declarationDir": "dist/@types",
+    "declarationDir": "dist",
     "lib": ["dom", "esnext"],
     "declaration": true,
     "strict": true,

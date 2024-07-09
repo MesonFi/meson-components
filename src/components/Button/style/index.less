@@ -1,9 +1,57 @@
 @import './variables.less';
 
-.meson-@{button-prefix-name} {
+.meson-button-block {
+  width: 100%;
+}
+
+.meson-button {
   display: inline-flex;
-  background-color: @button-primary-color;
-  color: @button-bg-color;
+  align-items: center;
+  cursor: pointer;
+  background-color: @button-bg-color;
+  color: @button-color;
   padding: @button-normal-padding;
   border-radius: @button-radius;
+  border: @button-border;
+  background: @button-bg-color;
+
+  .meson-button-icon {
+    margin-inline-end: @box-margin-mini-size;
+    width: @button-icon-size;
+    height: @button-icon-size;
+  }
+
+  &:hover {
+    background: @button-bg-hover-color;
+  }
+
+  &:active {
+    background: @button-bg-active-color;
+  }
+}
+
+.meson-main-button {
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  background: @main-button-bg-color;
+  color: @main-button-color;
+  padding: @main-button-padding;
+  border-radius: @button-radius;
+  font-size: @main-button-font-size;
+  font-weight: @main-button-font-weight;
+  line-height: 100%;
+
+  &:hover {
+    background: @main-button-bg-hover-color;
+  }
+
+  &:active {
+    background: @main-button-bg-active-color;
+  }
+
+  &.meson-button-disabled {
+    background: @main-button-disabled-bg-color;
+    cursor: not-allowed;
+  }
 }
