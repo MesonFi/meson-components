@@ -1,16 +1,56 @@
+.meson-button-block {
+  width: 100%;
+}
 .meson-button {
   display: inline-flex;
-  background-color: #4c67ff;
+  align-items: center;
+  cursor: pointer;
+  background-color: rgba(247, 251, 252, 0.2);
+  color: #25C696;
+  padding: 6px 12px;
+  border-radius: 8px;
+  border: 1px solid #25C696;
+  background: rgba(247, 251, 252, 0.2);
+}
+.meson-button .meson-button-icon {
+  margin-inline-end: 4px;
+  width: 24px;
+  height: 24px;
+}
+.meson-button:hover {
+  background: #d4f1ea;
+}
+.meson-button:active {
+  background: #c3ebe4;
+}
+.meson-main-button {
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  background: linear-gradient(282deg, #00D395 9.43%, #04DDDE 93.57%);
   color: #fff;
-  padding: 4px 8px;
-  border-radius: 4px;
+  padding: 24px 32px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 100%;
+}
+.meson-main-button:hover {
+  background: linear-gradient(282deg, #02C78D 9.43%, #04D0D1 93.57%);
+}
+.meson-main-button:active {
+  background: linear-gradient(282deg, #05ae71 9.43%, #06ae97 93.57%);
+}
+.meson-main-button.meson-button-disabled {
+  background: #DFEBE7;
+  cursor: not-allowed;
 }
 .meson-card {
   display: inline-flex;
   background-color: #4c67ff;
   color: #fff;
   padding: 24px;
-  border-radius: 4px;
+  border-radius: 8px;
 }
 
 
