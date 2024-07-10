@@ -1,12 +1,12 @@
 {
-  "name": "meson-components",
+  "name": "meson-components-demo",
   "version": "0.0.36",
   "main": "dist/index.js",
-  "types": "dist/@types/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack serve --mode=development",
-    "build": "npx webpack --config webpack.config.js --mode=production"
+    "build": "npx webpack --config webpack.config.js --mode=production",
+    "deploy": "gh-pages -d docs"
   },
   "author": "",
   "license": "ISC",
@@ -36,7 +36,7 @@
     "webpack-dev-server": "^5.0.4"
   },
   "dependencies": {
-    "meson-components": "^0.0.36",
+    "meson-components": "^0.0.42",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   }
